@@ -1,0 +1,40 @@
+html, body{margin:
+     0;padding: 0; }
+body{height: 100%; font-family: Arial, sans-serif; }
+
+header{width: 100%; flex: initial ; }
+ul li{list-style: none; display: inline-block;}
+.top{height: 50px; margin-top: 15px; margin-left: 10px;}
+nav{border-bottom: 1px solid rgb(219, 213, 213); }
+.logo{display: inline-block;  }
+.searchbox{width: 600px; display: inline-block; position: relative; bottom: 22px;}
+.searchbox input{ width: 590px;
+ }
+ .keyboard, .search-button { float: right; position: relative;}
+ 
+ .search-button{bottom: 20px; }
+ .keyboard{bottom: 20px; }
+
+.searchp{border-radius: 30px; border: 1px solid;
+}
+.searchp:hover input{ width: 0; outline: none;font-weight:200; transition: .8s; background: transparent;}
+ .right-nav{float: right; position: relative; bottom: 70px; right: 10px;}
+
+.bottom-right{width: 200px; }
+
+.bottom-left{width: 300px; margin-left: 200px; }
+
+.bottom-right, .bottom-left{display: inline-block;}
+main{width: 600px; margin-left: 100px;}
+
+.results{margin-left: 150px; }
+
+footer{position: absolute; 
+width: 100%;
+text-align: center;
+background-color: rgb(241, 238, 238);
+}
+
+a{ text-decoration:none;}
+
+
